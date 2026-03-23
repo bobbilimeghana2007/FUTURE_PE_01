@@ -1,0 +1,151 @@
+body{
+
+margin:0;
+font-family:Arial;
+text-align:center;
+color:white;
+overflow-x:hidden;
+
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+
+}
+
+/* HEADER */
+
+header{
+
+padding:50px;
+
+}
+
+/* GENERATOR */
+
+.generator, #output{
+
+margin:40px auto;
+width:70%;
+padding:40px;
+
+background:rgba(255,255,255,0.1);
+
+border-radius:15px;
+
+backdrop-filter:blur(10px);
+
+box-shadow:0 8px 30px rgba(0,0,0,0.5);
+
+}
+
+/* INPUT */
+
+input{
+
+padding:12px;
+width:300px;
+border-radius:5px;
+border:none;
+
+}
+
+/* BUTTON */
+
+button{
+
+padding:12px 25px;
+background:#00c6ff;
+border:none;
+color:white;
+border-radius:5px;
+cursor:pointer;
+
+margin-left:10px;
+
+transition:0.3s;
+
+}
+
+button:hover{
+
+background:#0072ff;
+transform:scale(1.05);
+
+}
+
+/* HIDDEN */
+
+.hidden{
+
+display:none;
+
+}
+
+ul{
+
+list-style:none;
+
+}
+
+/* TIPS */
+
+.tips{
+
+padding:40px;
+
+}
+
+.card{
+
+background:rgba(255,255,255,0.1);
+padding:20px;
+margin:10px auto;
+width:300px;
+
+border-radius:10px;
+
+transition:0.3s;
+
+}
+
+.card:hover{
+
+transform:scale(1.1);
+
+background:rgba(255,255,255,0.2);
+
+}
+
+/* FOOTER */
+
+footer{
+
+background:#111;
+padding:20px;
+
+}
+
+/* FALLING BUSINESS ICONS */
+
+.falling span{
+
+position:fixed;
+top:-50px;
+font-size:28px;
+animation:fall linear infinite;
+
+}
+
+@keyframes fall{
+
+0%{
+
+transform:translateY(-100px) rotate(0deg);
+
+}
+
+100%{
+
+transform:translateY(110vh) rotate(360deg);
+
+}
+
+}
