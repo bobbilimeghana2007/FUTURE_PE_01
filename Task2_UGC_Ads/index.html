@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>GlowAI Marketing Campaign</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bubbles"></div>
+
+<header>
+<h1>GlowAI Skincare Campaign</h1>
+<p>AI Generated UGC Marketing Ads</p>
+</header>
+
+<section class="product">
+
+<h2>Featured Product</h2>
+
+<img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908">
+
+<p>GlowAI Smart Serum improves skin glow and texture using advanced skincare formula.</p>
+
+</section>
+
+<section>
+
+<h2>Scroll Stopping Hooks</h2>
+
+<div class="cards" id="hookList">
+
+<div class="card">This serum fixed my skin in 7 days 😳</div>
+<div class="card">Stop scrolling if you struggle with acne</div>
+<div class="card">POV: you finally find skincare that works</div>
+
+</div>
+
+<button onclick="generateHook()">Generate Random Hook</button>
+
+<h3>Add Your Own Hook</h3>
+
+<input id="userHook" placeholder="Write your hook here">
+
+<button onclick="addHook()">Add Hook</button>
+
+</section>
+
+<section>
+
+<h2>UGC Ad Scripts</h2>
+
+<div class="ad">
+<p>
+I kept seeing GlowAI on Instagram and finally tried it.
+Within a week my skin felt smoother and brighter.
+</p>
+
+<button onclick="likeAd(this)">❤️ Like</button>
+
+</div>
+
+<div class="ad">
+<p>
+I don't trust most skincare ads but GlowAI surprised me.
+My skin texture improved and looks healthier.
+</p>
+
+<button onclick="likeAd(this)">❤️ Like</button>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<h2>Ad Engagement</h2>
+
+<p>Total Likes: <span id="likes">0</span></p>
+
+</section>
+
+<section class="cta">
+
+<h2>Ready For Your Glow Up?</h2>
+
+<button onclick="buyNow()">Try GlowAI Now</button>
+
+<p id="ctaMsg"></p>
+
+</section>
+
+<footer>
+
+<p>Prompt Engineering Internship – Task 2</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
